@@ -13,9 +13,6 @@ jobs:
         runs-on: ubuntu-latest
 
         steps:
-        - name: print value
-          run: |
-             echo "good job hari"
 
         - name: Checkout Repository
           uses: actions/checkout@v4
